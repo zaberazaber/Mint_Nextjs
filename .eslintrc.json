@@ -4,11 +4,14 @@
       "plugin:import/recommended",
       "plugin:jsx-a11y/recommended",
       "plugin:react/recommended",
-      "plugin:react-hooks/recommended"
+      "plugin:react-hooks/recommended",
+      "plugin:prettier/recommended",
+      "prettier"
     ],
-    "plugins": ["import", "jsx-a11y", "react", "react-hooks"],
+    "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
     "rules": {
       "import/no-unresolved": "error",
+      "prettier/prettier": ["error"],
       "react/react-in-jsx-scope": "off",
       "jsx-a11y/anchor-is-valid": [
         "error",
