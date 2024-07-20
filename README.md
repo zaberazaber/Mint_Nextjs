@@ -14,6 +14,12 @@ pnpm dev
 bun dev
 ```
 
+for adding lint
+
+```
+npm install --save-dev eslint-config-next eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
