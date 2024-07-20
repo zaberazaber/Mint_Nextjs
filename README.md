@@ -26,6 +26,16 @@ for adding prettier
 npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
+
+adding git hooks
+```
+npm install --save-dev husky lint-staged @commitlint/config-conventional @commitlint/cli
+
+npx husky init
+
+```
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
